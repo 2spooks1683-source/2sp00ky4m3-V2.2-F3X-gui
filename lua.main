@@ -69,7 +69,7 @@ local function createTextBox(name, placeholder, x, y, w, h)
     return box
 end
 
-local CreateBaseplateBtn = createButton("CreateBaseplate", "CreateBaseplate", 5, 85, 90, 40)
+local CreateBaseplateBtn = createButton("CreateBaseplate", "Create Baseplate", 5, 85, 90, 40)
 CreateBaseplateBtn.MouseButton1Click:Connect(function()
 local player = game.Players.LocalPlayer
 local char = player.Character
@@ -456,7 +456,7 @@ SetSkyboxBtn.MouseButton1Click:Connect(function()
 
 end)
 
-local DeleteAllBtn = createButton("DeleteAll", "DeleteAll", 5, 130, 90, 40)
+local DeleteAllBtn = createButton("DeleteAll", "Delete All", 5, 130, 90, 40)
 DeleteAllBtn.MouseButton1Click:Connect(function()
 local player = game.Players.LocalPlayer
 local tool
@@ -851,7 +851,7 @@ ColorAll()
 
 end)
 
-local Fog+NightBtn = createButton("Fog+Night", "Fog+Night", 100, 175, 90, 40)
+local Fog+NightBtn = createButton("Fog+Night", "Fog + Night", 100, 175, 90, 40)
 Fog+NightBtn.MouseButton1Click:Connect(function()
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
@@ -862,7 +862,7 @@ Fog+NightBtn.MouseButton1Click:Connect(function()
 
 end)
 
-local SkeletonSkyboxBtn = createButton("SkeletonSkybox", "SkeletonSkybox", 5, 220, 90, 40)
+local SkeletonSkyboxBtn = createButton("SkeletonSkybox", "Skeleton Skybox", 5, 220, 90, 40)
 SkeletonSkyboxBtn.MouseButton1Click:Connect(function()
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
@@ -1010,7 +1010,7 @@ CreateSky()
 
 end)
 
-local KillAllBtn = createButton("KillAll", "KillAll", 100, 220, 95, 40)
+local KillAllBtn = createButton("KillAll", "Kill All", 100, 220, 95, 40)
 KillAllBtn.MouseButton1Click:Connect(function()
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
@@ -1019,7 +1019,7 @@ KillAllBtn.MouseButton1Click:Connect(function()
 
 end)
 
-local DiscoletaBtn = createButton("Discoleta", "Discoleta", 5, 265, 90, 40)
+local DiscoletaBtn = createButton("Discoleta", "Discoleta!", 5, 265, 90, 40)
 DiscoletaBtn.MouseButton1Click:Connect(function()
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
@@ -1028,7 +1028,7 @@ DiscoletaBtn.MouseButton1Click:Connect(function()
 
 end)
 
-local AbuserScriptBtn = createButton("AbuserScript", "AbuserScript", 100, 265, 95, 40)
+local AbuserScriptBtn = createButton("AbuserScript", "Abuser Script", 100, 265, 95, 40)
 AbuserScriptBtn.MouseButton1Click:Connect(function()
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
@@ -1043,7 +1043,7 @@ AbuserScriptBtn.MouseButton1Click:Connect(function()
 
 end)
 
-local CreateTeamBtn = createButton("CreateTeam", "CreateTeam", 5, 310, 90, 40)
+local CreateTeamBtn = createButton("CreateTeam", "Create Team", 5, 310, 90, 40)
 CreateTeamBtn.MouseButton1Click:Connect(function()
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
@@ -1057,7 +1057,7 @@ CreateTeamBtn.MouseButton1Click:Connect(function()
 
 end)
 
-local ParticleSpamBtn = createButton("ParticleSpam", "ParticleSpam", 100, 310, 95, 40)
+local ParticleSpamBtn = createButton("ParticleSpam", "Particle Spam", 100, 310, 95, 40)
 DeleteAllBtn.MouseButton1Click:Connect(function()
 local player = game.Players.LocalPlayer
 local char = player.Character or player.CharacterAdded:Wait()
@@ -1347,13 +1347,13 @@ notmyscript({{"111277548008448"}})
 end)
 
 createButton("OPadmin", "OPadmin\n[Deleted]", 200, 85, 95, 40, true)
-local InfiniteYieldBtn = createButton("InfiniteYield", "InfiniteYield", 300, 85, 95, 40)
+local InfiniteYieldBtn = createButton("InfiniteYield", "Infinite Yield", 300, 85, 95, 40)
 InfiniteYieldBtn.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 
 end)
 
-local NamelessAdminBtn = createButton("NamelessAdmin", "NamelessAdmin", 200, 130, 95, 40)
+local NamelessAdminBtn = createButton("NamelessAdmin", "Nameless Admin REWORKED", 200, 130, 95, 40)
 NamelessAdminBtn.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Nameless-admin-reworked-75477"))()
 
@@ -1378,7 +1378,7 @@ BilloardGuiBtn.MouseButton1Click:Connect(function()
 
 end)
 
-local SpookyRemixBtn = createButton("SpookyRemix", "SpookyRemix", 300, 175, 95, 40)
+local SpookyRemixBtn = createButton("SpookyRemix", "Spooky Remix", 300, 175, 95, 40)
 SpookyRemixBtn.MouseButton1Click:Connect(function()
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
@@ -1400,7 +1400,7 @@ WindsOfFjordsBtn.MouseButton1Click:Connect(function()
 
 end)
 
-local BilmemKiBtn = createButton("BilmemKi", "BilmemKi", 300, 220, 95, 40)
+local BilmemKiBtn = createButton("BilmemKi", "Bilmem Ki", 300, 220, 95, 40)
 BilmemKiBtn.MouseButton1Click:Connect(function()
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
@@ -1411,7 +1411,7 @@ BilmemKiBtn.MouseButton1Click:Connect(function()
 
 end)
 
-local MeMeMeBtn = createButton("MeMeMe", "MeMeMe", 200, 265, 95, 40)
+local MeMeMeBtn = createButton("MeMeMe", "ME ME ME! short", 200, 265, 95, 40)
 MeMeMeBtn.MouseButton1Click:Connect(function()
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
@@ -1422,7 +1422,7 @@ MeMeMeBtn.MouseButton1Click:Connect(function()
 
 end)
 
-local Theme1x3Btn = createButton("Theme1x3", "Theme1x3", 300, 265, 95, 40)
+local Theme1x3Btn = createButton("Theme1x3", "1x3x5x6 Theme", 300, 265, 95, 40)
 Theme1x3Btn.MouseButton1Click:Connect(function()
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
@@ -1433,7 +1433,7 @@ Theme1x3Btn.MouseButton1Click:Connect(function()
 
 end)
 
-local GlobalMessageBtn = createButton("GlobalMessage", "GlobalMessage", 200, 310, 95, 40)
+local GlobalMessageBtn = createButton("GlobalMessage", "Global Message Gui", 200, 310, 95, 40)
 GlobalMessageBtn.MouseButton1Click:Connect(function()
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
@@ -1443,7 +1443,7 @@ GlobalMessageBtn.MouseButton1Click:Connect(function()
 
 end)
 
-local ChangeNameBtn = createButton("ChangeName", "ChangeName", 300, 310, 95, 40)
+local ChangeNameBtn = createButton("ChangeName", "Change Name", 300, 310, 95, 40)
 ChangeNameBtn.MouseButton1Click:Connect(function()
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
