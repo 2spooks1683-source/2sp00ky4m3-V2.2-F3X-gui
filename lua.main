@@ -148,7 +148,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/
     
 end)
 
-local NamelessAdminBtn = createButton("NamelessAdmin", "Nameless Admin REWORKED", 200, 130, 95, 40)
+local NamelessAdminBtn = createButton("NamelessAdmin", "Nameless Admin", 200, 130, 95, 40)
 NamelessAdminBtn.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Nameless-admin-reworked-75477"))()
 
