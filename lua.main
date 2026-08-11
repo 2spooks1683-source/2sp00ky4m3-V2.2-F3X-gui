@@ -230,10 +230,30 @@ createButton("FireAvatarState", "Off", 400, 325, 195, 40, true)
 createTextBox("BillboardTextVal", "2sp00ky", 600, 325, 195, 40)
 
 createHeader("Avatar Changes", 5, 355, 390, 30)
-createButton("HeadShake", "Head\nShake", 5, 390, 75, 55)
-createButton("DiscoCharacter", "Disco\nCharacter", 85, 390, 75, 55)
-createButton("FloatingPad", "Floating\nPad", 165, 390, 75, 55)
-createButton("Noclip2", "Noclip2", 245, 390, 70, 55)
+local HeadShakeBtn = createButton("HeadShake", "Head Shake", 5, 390, 75, 55)
+HeadShakeBtn.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/F3XHeadShake/refs/heads/main/lua.main'))()
+
+end)
+
+local DiscoCharacterBtn = createButton("DiscoCharacter", "Disco Character", 85, 390, 75, 55)
+DiscoCharacterBtn.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/F3Xmeshdisco/refs/heads/main/lua.main'))()
+
+end)
+
+local FloatingPadBtn = createButton("FloatingPad", "Floating Pad", 165, 390, 75, 55)
+FloatingPadBtn.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/F3Xftpad/refs/heads/main/lua.main'))()
+
+end)
+
+local Noclip2Btn = createButton("Noclip2", "Noclip2", 245, 390, 70, 55)
+Noclip2Btn.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HDadminNoclip/refs/heads/main/lua.main'))()
+
+end)
+
 createButton("BecomeHorseman", "Become\nHeadless\nHorseMan", 320, 390, 75, 55, true)
 
 createHeader("Maded By      >", 400, 390, 195, 55)
