@@ -180,44 +180,25 @@ end)
 
 local BilmemKiBtn = createButton("BilmemKi", "Bilmem Ki", 300, 220, 95, 40)
 BilmemKiBtn.MouseButton1Click:Connect(function()
-    local ReplicatedStorage = game:GetService("ReplicatedStorage")
-    local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-    
-    RequestCommand:InvokeServer(":music 1844945721")
-    RequestCommand:InvokeServer(":pitch 0.95")
-    RequestCommand:InvokeServer(":volume 15")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HDadminMusic2/refs/heads/main/lua.main'))()
 
 end)
 
 local MeMeMeBtn = createButton("MeMeMe", "ME ME ME! short", 200, 265, 95, 40)
 MeMeMeBtn.MouseButton1Click:Connect(function()
-    local ReplicatedStorage = game:GetService("ReplicatedStorage")
-    local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-    
-    RequestCommand:InvokeServer(":music 116270016209656")
-    RequestCommand:InvokeServer(":pitch 0.25")
-    RequestCommand:InvokeServer(":volume 15")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HDadminMusic4/refs/heads/main/lua.main'))()
 
 end)
 
 local Theme1x3Btn = createButton("Theme1x3", "1x3x5x6 Theme", 300, 265, 95, 40)
 Theme1x3Btn.MouseButton1Click:Connect(function()
-    local ReplicatedStorage = game:GetService("ReplicatedStorage")
-    local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-    
-    RequestCommand:InvokeServer(":music 94284750410104")
-    RequestCommand:InvokeServer(":pitch 0.235")
-    RequestCommand:InvokeServer(":volume 15")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HDadminMusic5/refs/heads/main/lua.main'))()
 
 end)
 
 local GlobalMessageBtn = createButton("GlobalMessage", "Global Message Gui", 200, 310, 95, 40)
 GlobalMessageBtn.MouseButton1Click:Connect(function()
-    local ReplicatedStorage = game:GetService("ReplicatedStorage")
-    local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-    
-    RequestCommand:InvokeServer(":chat all T2S WAS HERE!")
-    RequestCommand:InvokeServer(":say all T2S WAS HERE!")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HDadminMessage/refs/heads/main/lua.main'))()
 
 end)
 
