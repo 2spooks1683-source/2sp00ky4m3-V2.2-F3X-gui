@@ -254,7 +254,11 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HD
 
 end)
 
-createButton("BecomeHorseman", "Become\nHeadless\nHorseMan", 320, 390, 75, 55, true)
+local BecomeHorsemanBtn = createButton("BecomeHorseman", "Become HeadlessHorseman", 5, 265, 90, 40)
+BecomeHorsemanBtn.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HDadminHorseman/refs/heads/main/lua.main'))()
+
+end)
 
 createHeader("Maded By      >", 400, 390, 195, 55)
 createHeader("2sp00ky_Reborn", 600, 390, 195, 55)
