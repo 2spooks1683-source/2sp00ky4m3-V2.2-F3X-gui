@@ -156,42 +156,25 @@ end)
 
 local OOFstaticBtn = createButton("OOFstatic", "OOFstatic", 300, 130, 95, 40)
 OOFstaticBtn.MouseButton1Click:Connect(function()
-    local ReplicatedStorage = game:GetService("ReplicatedStorage")
-    local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-    
-    RequestCommand:InvokeServer(":music 79248747505392")
-    RequestCommand:InvokeServer(":volume 15")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HDadminMusic6/refs/heads/main/lua.main'))()
 
 end)
 
 local BilloardGuiBtn = createButton("BilloardGui", "BilloardGui", 200, 175, 95, 40)
 BilloardGuiBtn.MouseButton1Click:Connect(function()
-    local ReplicatedStorage = game:GetService("ReplicatedStorage")
-    local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-    
-    RequestCommand:InvokeServer(":titleo me 2sp00ky")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HDbilloardgui/refs/heads/main/lua.main'))()
 
 end)
 
 local SpookyRemixBtn = createButton("SpookyRemix", "Spooky Remix", 300, 175, 95, 40)
 SpookyRemixBtn.MouseButton1Click:Connect(function()
-    local ReplicatedStorage = game:GetService("ReplicatedStorage")
-    local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-    
-    RequestCommand:InvokeServer(":music 71208882022079")
-    RequestCommand:InvokeServer(":pitch 0.1")
-    RequestCommand:InvokeServer(":volume 15")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HDadminMusic1/refs/heads/main/lua.main'))()
 
 end)
 
 local WindsOfFjordsBtn = createButton("WindsOfFjords", "WindsOfFjords", 200, 220, 95, 40)
 WindsOfFjordsBtn.MouseButton1Click:Connect(function()
-    local ReplicatedStorage = game:GetService("ReplicatedStorage")
-    local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-    
-    RequestCommand:InvokeServer(":music 134907499311321")
-    RequestCommand:InvokeServer(":pitch 0.9")
-    RequestCommand:InvokeServer(":volume 15")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HDadminMusic3/refs/heads/main/lua.main'))()
 
 end)
 
