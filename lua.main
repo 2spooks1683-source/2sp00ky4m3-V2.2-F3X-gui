@@ -254,7 +254,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HD
 
 end)
 
-local BecomeHorsemanBtn = createButton("BecomeHorseman", "Become HeadlessHorseman", 5, 265, 90, 40)
+local BecomeHorsemanBtn = createButton("BecomeHorseman", "Become HeadlessHorseman", 320, 390, 70, 55)
 BecomeHorsemanBtn.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/2spooks1683-source/HDadminHorseman/refs/heads/main/lua.main'))()
 
